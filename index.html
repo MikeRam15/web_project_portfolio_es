@@ -9,20 +9,21 @@
   </head>
   <body class="body">
     <header class="header">
-      <div>
+      <div class="bio">
+        <div class="ellipse ellipse--top"></div>
         <h1 class="titulo-header">Michael Ramirez</h1>
         <p class="subtitulo-header">
           Desarrollador Full-Stack Junior | TypeScript, React, Node.js
         </p>
         <p class="header-text">
-          Desarrolladora web junior con experiencia práctica creando interfaces
+          Desarrollador web junior con experiencia práctica creando interfaces
           limpias y responsivas con HTML, CSS, JavaScript y React, así como
-          implementando lógica básica de back-end. Ha trabajado en proyectos
+          implementando lógica básica de back-end. He trabajado en proyectos
           formativos que siguen procesos reales de desarrollo, usando Git,
-          GitHub y Figma. Disfruta colaborar en equipo, mantener un código claro
+          GitHub y Figma. Disfruto colaborar en equipo, mantener un código claro
           y resolver problemas de forma estructurada. Motivada por seguir
           aprendiendo, asumir nuevos retos y aprovechar oportunidades para
-          crecer como desarrolladora.
+          crecer como desarrollador.
         </p>
         <nav class="nav-header">
           <ul class="nav-links__header">
@@ -32,14 +33,7 @@
           </ul>
         </nav>
       </div>
-      <div class="header-img">
-        <img
-          width="150vh"
-          height="150vh"
-          src="https://previews.123rf.com/images/yupiramos/yupiramos1705/yupiramos170514693/77979774-young-man-profile-icon-vector-illustration-graphic-design.jpg"
-          alt="Foto de Perfil "
-        />
-      </div>
+      <img class="header-img" src="./images/Yo2.jpg" alt="Foto de Perfil " />
     </header>
     <main class="content">
       <section class="Habilidades">
@@ -59,8 +53,110 @@
       </section>
       <section class="Proyectos">
         <h1 class="titulo-proyecto">Proyectos destacados</h1>
+        <div class="cards">
+          <article class="card">
+            <div class="card__media">
+              <img
+                src="./images/Cafe.png"
+                class="card__image"
+                alt="Cafe Espresso TripleTen"
+              />
+              <div class="card__icons">
+                <img src="./vectors/Group 120570.svg" alt="HTML5" />
+                <img src="./vectors/Group 2087326844.svg" alt="CSS3" />
+              </div>
+            </div>
+            <div class="card__content">
+              <div class="card__info">
+                <h1 class="card__title">Página web de una cafetería</h1>
+
+                <p class="card__description">
+                  Desarrollo de una landing page responsiva para una cafetería
+                  siguiendo un brief de diseño. Incluye estructura semántica,
+                  maquetación con Flexbox, creación de secciones nuevas y un
+                  formulario de contacto funcional.<br />
+                  Logro: Implementé desde cero el diseño completo de la página,
+                  organicé el proyecto con buenas prácticas y publiqué la
+                  versión final utilizando GitHub Pages.
+                </p>
+              </div>
+              <div class="card__links">
+                <img
+                  class="card__blank"
+                  src="./vectors/Union.svg"
+                  alt="blank"
+                />
+                <a href="#" target="_blank">Demo en vivo</a>
+                <a class="github" href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__media">
+              <img
+                src="./images/placeholder.png"
+                class="card__image"
+                alt="Placeholder Photo"
+              />
+              <div class="card__icons">
+                <img src="./vectors/Group 120568.svg" alt="JS" />
+                <img src="./vectors/Group 2087326845.svg" alt="React" />
+              </div>
+            </div>
+            <div class="card__content">
+              <div class="card__info">
+                <h1 class="card__title">Mi Proyecto</h1>
+
+                <p class="card__description">Descripción del proyecto</p>
+              </div>
+              <div class="card__links">
+                <img
+                  class="card__blank"
+                  src="./vectors/Union.svg"
+                  alt="blank"
+                />
+                <a href="#" target="_blank">Demo en vivo</a>
+                <a class="github" href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="ellipse ellipse--bottom"></div>
+      <div class="contact__footer">
+        <h1 class="title__footer">Contacto</h1>
+        <p class="email">
+          <a href="mailto:michaelars1504@gmail.com">michaelars1504@gmail.com</a>
+        </p>
+        <div class="redes">
+          <a
+            href="https://www.linkedin.com/in/michael-ramirez-65b73b301"
+            target="_blank"
+            rel="noopener"
+          >
+            <img class="red" src="./vectors/LinkedIn.svg" alt="LinkedIn" />
+          </a>
+          <a
+            href="https://www.facebook.com/MichaelLHNLG/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img class="red" src="./vectors/Facebook.svg" alt="Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/michae.ramirez/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img class="red" src="./vectors/Instagram.svg" alt="Instagram" />
+          </a>
+          <a href="" rel="noopener">
+            <img class="red" src="./vectors/Twitter.svg" alt="X(Twitter)" />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
