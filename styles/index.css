@@ -662,7 +662,7 @@ body {
     gap: 10px;
   }
 }
-@media (max-width:425px){
+@media (max-width: 425px) {
   html {
     font-size: 14px;
   }
@@ -709,6 +709,8 @@ body {
   .nav-links__header {
     flex-direction: column;
     gap: 1.2rem;
+    gap: 20px;
+    align-items: flex-start;
   }
 
   .nav-link__header {
@@ -799,8 +801,4 @@ body {
     bottom: 0;
     left: 0;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0397dc7225eeff3c4ac2d4c4a80b9215ea146bf2
